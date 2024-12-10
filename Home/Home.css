@@ -81,7 +81,7 @@
 .overviewHeading{
     display: flex;
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: rgb(6, 6, 43);
 }
@@ -123,7 +123,7 @@
 .keyOfferingHeading{
     display: flex;
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 .keyOfferingHeadingImg{
