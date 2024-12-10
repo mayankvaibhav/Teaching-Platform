@@ -109,11 +109,26 @@
 .linkImg{
     height: 50px;
     width: 50px;
-    background-color: aqua;
+    /* background-color: aqua; */
     border-radius: 8px;
-    border: 1px solid rgb(6, 6, 43);
+    /* border: 1px solid rgb(6, 6, 43); */
+    background-size: cover; /* Or "contain" */
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
+.aboutMe{
+    background-image: url("house-chimney.png");
+    
+}
+.expertise{
+    background-image: url("user-experience.png");
+}
+.resource{
+    background-image: url("resources.png");
+}
+.contact{
+    background-image: url("customer-service.png");
+}
 
 
 .keyOffering{
