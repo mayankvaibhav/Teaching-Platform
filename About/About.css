@@ -26,7 +26,7 @@ html, body {
     left: 5px;
     width: 12%;
     height: fit-content;
-    background-color: rgb(160, 254, 254);
+    background-color: rgb(198, 249, 249);
     color: white;
     border-radius: 15px;
     border: 1px solid rgb(6, 6, 43);
@@ -35,8 +35,6 @@ html, body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .navigationBarContainer{
-    padding-left: 3px;
-    padding-right: 3px;
     padding-bottom: 18px;
 }
 

@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutContainer {
+    position: relative; /* Keeps elements relative to this container */
+    max-width: 428px;
+    width: 100%; /* Ensures full-width container */
+    /* background-color: lightskyblue; */
+    margin: 0; /* Removes any unintended shifting margins */
+}
+
+.navigationBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 40px;
+    left: 5px;
+    width: 12%;
+    height: fit-content;
+    background-color: rgb(198, 249, 249);
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(6, 6, 43);
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navigationBarContainer{
+    padding-bottom: 18px;
+}
+
+.linkImg {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    border-radius: 9px;
+    border: 1px solid white;
+    background-size: cover; /* Or "contain" */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: cyan;
+    border: 1px solid rgb(6, 6, 43);
+}
+.home{
+    background-image: url("../Icons/icons8-home-94.png");
+}
+.aboutMe{
+    background-image: url("../Icons/about.png");
+}
+.expertise{
+    background-image: url("../Icons/experience.png");
+}
+.resource{
+    background-image: url("../Icons/icons8-items-64.png");
+}
+.contact{
+    background-image: url("../Icons/icons8-address-book-94.png");
+}
+
+
+.upperDesign {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgb(6, 6, 43);
+    height: 9rem;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; 
+    border-bottom: 2px solid cyan;
+}
+.padder {
+    width: 100%;
+    padding-top: 11rem; /* Avoid margins for consistent layout */
+}
+
+
+.title{
+    font-size: 20px;
+}
+.headingTitle{
+    color: rgb(20, 20, 144);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.paragraph{
+    padding-left: 55px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+.subjectIconsContainer{
+    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.subjectIconsRow1{
+    display: flex;
+    justify-content: space-between;
+}
+.subjectIconsRow2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.subjectIcon{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgb(186, 240, 240);
+    border: 1px solid rgb(6, 6, 43);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Or "contain" */
+}
+.subject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.subjectDescription{
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.descriptionDesign{
+    margin-top: 30px;
+    /* margin-bottom: 90px; */
+}
+.icons{
+    height: 35px;
+    width: 35px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    background-position: center;
+    background-size: cover; 
+}
+.iconsTitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.maths{
+    background-image: url("../Icons/icons8-math-94.png");
+}
+.science{
+    background-image: url("../Icons/icons8-biotech-94.png");
+}
+.english{
+    background-image: url("../Icons/icons8-abc-block-94.png");
+}
+.ArithmeticImg{
+    background-image: url("../Icons/icons8-add-94.png");
+}
+.AlgebraImg{
+}
+.GeometryImg{background-image: url("../Icons/geometry.png");}
+.DataImg{background-image: url("../Icons/data.png");}
+.NumberImg{background-image: url("../Icons/number-blocks.png");}
+.LogicalImg{background-image: url("../Icons/logic.png");}
+.LifeImg{background-image: url("../Icons/life.png");}
+.ScientificImg{background-image: url("../Icons/critical.png");}
+.PhysicalImg{background-image: url("../Icons/physical.png");}
+.EarthImg{background-image: url("../Icons/planet-earth.png");}
+.ChemistryImg{background-image: url("../Icons/chemistry.png");}
+.ReadingImg{background-image: url("../Icons/reading.png");}
+.WritingImg{background-image: url("../Icons/writing.png");}
+.SpeakingImg{background-image: url("../Icons/conversation.png");}
+.Vocabularymg{background-image: url("../Icons/vocabulary.png");}
+.CriticalImg{background-image: url("../Icons/critical-thinking.png");}
+.AlgebraImg{background-image: url("../Icons/algebra.png");}
+
+
+
+
+.description{
+    /* margin-top: 20px; */
+    padding-left: 25px;
+    margin-top: 5px;
+}
+
+
+
+.liclass{
+    display: flex;
+    align-items: center; /* Align items vertically to the center */
+    gap: 20px;
+}
+.liclass p{
+    margin: 0; /* Remove default paragraph margin */
+    line-height: 1.3;
+    flex: 1;
+}
+.bulletImg{
+    height: 60px;
+    width: 60px;
+    /* border-radius: 10px; */
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}

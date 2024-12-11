@@ -117,17 +117,17 @@
     background-position: center;
 }
 .aboutMe{
-    background-image: url("house-chimney.png");
+    background-image: url("../Icons/about.png");
     
 }
 .expertise{
-    background-image: url("user-experience.png");
+    background-image: url("../Icons/experience.png");
 }
 .resource{
-    background-image: url("resources.png");
+    background-image: url("../Icons/icons8-items-64.png");
 }
 .contact{
-    background-image: url("customer-service.png");
+    background-image: url("../Icons/icons8-address-book-94.png");
 }
 
 
