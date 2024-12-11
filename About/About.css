@@ -39,6 +39,26 @@ html, body {
     margin-right: 2px;
     border-radius: 9px;
     border: 1px solid white;
+    background-size: cover; /* Or "contain" */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: cyan;
+    /* padding: 5px; */
+}
+.home{
+    background-image: url("../Icons/house-chimney.png");
+}
+.aboutMe{
+    background-image: url("../Icons/file-user.png");
+}
+.expertise{
+    background-image: url("../Icons/user-experience.png");
+}
+.resource{
+    background-image: url("../Icons/resources.png");
+}
+.contact{
+    background-image: url("../Icons/customer-service.png");
 }
 
 .upperDesign {
