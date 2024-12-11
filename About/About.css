@@ -18,11 +18,14 @@ html, body {
 }
 
 .navigationBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
-    top: 10px;
+    top: 40px;
     left: 5px;
     width: 12%;
-    height: 270px;
+    height: fit-content;
     background-color: rgb(6, 6, 43);
     color: white;
     border-radius: 15px;
@@ -30,13 +33,16 @@ html, body {
     z-index: 10;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.navigationBarContainer{
+    padding: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 .linkImg {
     height: 38px;
     width: 38px;
-    margin-top: 12px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin-top: 20px;
     border-radius: 9px;
     border: 1px solid white;
     background-size: cover; /* Or "contain" */
@@ -101,6 +107,8 @@ html, body {
 .briefIntro{
     color: rgb(6, 6, 43);
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
