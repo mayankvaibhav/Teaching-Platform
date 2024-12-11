@@ -5,6 +5,9 @@
     margin-left: -8px;
     background-color: lightskyblue;
 }
+body {
+    font-family: 'Comic Neue', sans-serif;
+}
 
 .backDiv{
     display: flex;
@@ -88,7 +91,10 @@
 .headingImg{
     height: 35px;
     width: 35px;
-    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../Icons/research.png");
 }
 
 
@@ -117,7 +123,7 @@
     background-position: center;
 }
 .aboutMe{
-    background-image: url("../Icons/about.png");
+    background-image: url("../Icons/man.png");
     
 }
 .expertise{
@@ -127,7 +133,7 @@
     background-image: url("../Icons/icons8-items-64.png");
 }
 .contact{
-    background-image: url("../Icons/icons8-address-book-94.png");
+    background-image: url("../Icons/operator.png");
 }
 
 
@@ -144,5 +150,80 @@
 .keyOfferingHeadingImg{
     height: 35px;
     width: 35px;
-    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../Icons/star-medal.png");
+}
+
+
+.listContainer{
+    /* border: 1px solid rgb(6, 6, 43); */
+    margin-top: 20px;
+}
+.itemContainer{
+    padding: 20px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+}
+.gifContainer{
+    height: 100px;
+    width: 100px;
+    /* background-color: red; */
+    flex-shrink: 0; /* Prevent shrinking */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.paragraphContainer{
+    /* border: 1px solid green; */
+}
+.paragraphContainer ul{
+    margin: 0;
+    padding: 0;
+    flex-grow: 1; /* Allow it to take up remaining space */
+}
+.cc{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* color: ; */
+}
+.paragraphContainer ul li{
+    font-size: 15px;
+}
+.GapReduce{
+    gap: 10px;
+}
+.PC{
+    margin-left: 12px;
+}
+
+
+.online{
+    background-image: url("../Icons/presentation.gif");
+}
+.Resource{
+    background-image: url("../Icons/books.gif");
+}
+.Interactive{background-image: url("../Icons/communications.gif");}
+.Tutoring{background-image: url("../Icons/webinar.gif");}
+
+.linkImg{
+    /* display: flex;
+    justify-content: ; */
+}
+.linkImg p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: 12px;
 }
