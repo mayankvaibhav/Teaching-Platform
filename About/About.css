@@ -26,22 +26,23 @@ html, body {
     left: 5px;
     width: 12%;
     height: fit-content;
-    background-color: rgb(6, 6, 43);
+    background-color: rgb(160, 254, 254);
     color: white;
     border-radius: 15px;
+    border: 1px solid rgb(6, 6, 43);
     text-align: center;
     z-index: 10;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .navigationBarContainer{
-    padding: 3px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 18px;
 }
 
 .linkImg {
-    height: 38px;
-    width: 38px;
+    height: 30px;
+    width: 30px;
     margin-top: 20px;
     border-radius: 9px;
     border: 1px solid white;
@@ -49,22 +50,22 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: cyan;
-    /* padding: 5px; */
+    border: 1px solid rgb(6, 6, 43);
 }
 .home{
-    background-image: url("../Icons/house-chimney.png");
+    background-image: url("../Icons/icons8-home-94.png");
 }
 .aboutMe{
-    background-image: url("../Icons/file-user.png");
+    background-image: url("../Icons/about.png");
 }
 .expertise{
-    background-image: url("../Icons/user-experience.png");
+    background-image: url("../Icons/experience.png");
 }
 .resource{
-    background-image: url("../Icons/resources.png");
+    background-image: url("../Icons/icons8-items-64.png");
 }
 .contact{
-    background-image: url("../Icons/customer-service.png");
+    background-image: url("../Icons/icons8-address-book-94.png");
 }
 
 .upperDesign {
