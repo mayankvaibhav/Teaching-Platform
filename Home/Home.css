@@ -102,6 +102,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 .navigationLinksContainer{
     margin-top: 30px;
@@ -129,11 +130,19 @@ body {
 .expertise{
     background-image: url("../Icons/experience.png");
 }
-.resource{
-    background-image: url("../Icons/icons8-items-64.png");
+.faq{
+    background-image: url("../Icons/faq.png");
 }
 .contact{
     background-image: url("../Icons/operator.png");
+}
+.profileImageContainer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid white;
+    border-bottom: 1px solid cyan;
+    background-image: url("../Icons/vivek\ kumar.jpg");
 }
 
 

@@ -68,19 +68,19 @@ body {
 }
 
 .aboutMe {
-    background-image: url("../Icons/about.png");
+    background-image: url("../Icons/man.png");
 }
 
 .expertise {
     background-image: url("../Icons/experience.png");
 }
 
-.resource {
-    background-image: url("../Icons/icons8-items-64.png");
+.faq {
+    background-image: url("../Icons/faq.png");
 }
 
 .contact {
-    background-image: url("../Icons/icons8-address-book-94.png");
+    background-image: url("../Icons/operator.png");
 }
 
 
@@ -197,6 +197,12 @@ body {
 
 .english {
     background-image: url("../Icons/icons8-abc-block-94.png");
+}
+.hindi{
+    background-image: url("../Icons/hindi.png");
+}
+.computer{
+    background-image: url("../Icons/computer.png");
 }
 
 .ArithmeticImg {

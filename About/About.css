@@ -57,16 +57,16 @@ html, body {
     background-image: url("../Icons/icons8-home-94.png");
 }
 .aboutMe{
-    background-image: url("../Icons/about.png");
+    background-image: url("../Icons/man.png");
 }
 .expertise{
     background-image: url("../Icons/experience.png");
 }
-.resource{
-    background-image: url("../Icons/icons8-items-64.png");
+.faq{
+    background-image: url("../Icons/faq.png");
 }
 .contact{
-    background-image: url("../Icons/icons8-address-book-94.png");
+    background-image: url("../Icons/operator.png");
 }
 
 .upperDesign {
@@ -93,7 +93,13 @@ html, body {
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+.profileImgContainer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../Icons/vivek\ kumar.jpg");
 }
 
 .padder {
@@ -122,12 +128,7 @@ html, body {
 
 
 
-.design{
-    height: 5rem;
-    margin-left: 5px;
-    width: 5px;
-    background-color: aqua;
-}
+
 .contentContainer{
     margin-top: 15px;
     height: 10rem;
@@ -136,36 +137,68 @@ html, body {
     border-top-right-radius: 30%;
     border-top: 3px solid rgb(6, 6, 43);
 }
-.currentBusiness{
+.cc{
     margin-top: 30px;
     border-bottom: 3px solid gray;
     border-left: 3px solid gray;
     /* border-right: 3px solid gray; */
-    border-bottom-left-radius: 50px;
-    height: 7rem;
+    border-bottom-left-radius: 30px;
+    height: fit-content;
     margin-left: 20px;
     margin-right: 20px;
     display: flex;
-
-    
 }
-.currentBusinessContent{
-    margin-left: 10px;
+.logo{
+    height: 30px;
+    width: 30px;
+    /* background-color: aqua; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-
-
-.backgroundStory{
+.whyChoose{background-image: url("../Icons/recruitment.png");}
+.currentAcdemic{background-image: url("../Icons/education.png");}
+.EduBack{background-image: url("../Icons/text-books.png");}
+.Experience{background-image: url("../Icons/best-employee.png");}
+.Methodology{background-image: url("../Icons/best.png");}
+.headingLogo{
+    font-weight: bold;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.heading{
+    color: rgb(9, 9, 129);
+}
+.contentDescription{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.pp{
+    padding-top: 5px;
+    padding-left: 25px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.CTA{
+    /* color: rgb(114, 23, 240); */
+    line-height: 1.5;
+    margin-left: 30px;
     margin-top: 30px;
-    border-bottom: 3px solid gray;
-    border-left: 3px solid gray;
-    border-bottom-left-radius: 50px;
-    height: 7rem;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.backgroundStoryContent{
-    margin-left: 10px;
-
+    font-size: 15px;
+    margin-right: 15px;
+    padding-bottom: 30px;
 }
